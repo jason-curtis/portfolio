@@ -1,5 +1,52 @@
 [
     {
+        "name": "Photography porfolio",
+        "image": "prusik.jpg",
+        "location": "Pacific Northwest",
+        "date": "2013-Present",
+        "description": [
+            "Picked up the trade of high-quality photography.",
+            "Specializing in outdoors and landscape photos, and people in outdoor settings.",
+            "Love capturing beautiful moments and scenes.",
+            "<a href=http://jasoncurtisphotogrpahy.com target='_blank'><span class='clicktarget'></span>jasoncurtisphotography.com</a>"
+        ],
+        "tags": [
+            "Outdoorsman",
+            "Photographer"
+        ]
+    },
+    {
+        "name": "Climb Planner",
+        "image": "climbplan.png",
+        "location": "Pacific Northwest",
+        "date": "2015-?",
+        "description": [
+            "Built a tool to help mountain climbers prepare for backcountry trips.",
+            "Interfaced with commonly-used websites/APIs to bring helpful data close to hand.",
+            "Enjoyed using a React and ES2015 transpiled stack and service-oriented architecture.",
+            "<a href=http://climbplan.com target='_blank'><span class='clicktarget'></span>Try it!</a>"
+        ],
+        "tags": [
+            "Outdoorsman",
+            "Codemonkey"
+        ]
+    },
+    {
+        "name": "Aerial photography",
+        "image": "nz_aerial.jpg",
+        "location": "New Zealand",
+        "date": "Mar 2016",
+        "description": [
+            "Learned aerial photography and videography during adventures in New Zealand.",
+            "Single-person and team operation of the 3DR Solo quadcopter.",
+            "<a href=https://www.youtube.com/watch?v=I-xcovTdz8k target='_blank'><span class='clicktarget'></span>Watch Video</a>"
+        ],
+        "tags": [
+            "Outdoorsman",
+            "Photographer"
+        ]
+    },
+    {
         "name": "Hakai Kayaking",
         "image": "hakai.jpg",
         "location": "British Columbia",
