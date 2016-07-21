@@ -1,5 +1,5 @@
 body{
-  background-image: url("../imgs/bg.jpg");
+  background-image: url("imgs/bg.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0%;
   background-color: #EEE;
@@ -64,7 +64,7 @@ body{
 	font-family: Tw Cen MT, Trebuchet MS, sans serif;
 	font-weight: bold;
 	padding-right: 1em;
-    background-image: url("../imgs/semiTransparentWhite.png");
+    background-image: url("imgs/semiTransparentWhite.png");
 }
 
 .overviewstmt .title{
@@ -81,7 +81,7 @@ body{
 	font-style: italic;
 	border-left: 1px dashed #ddd;
 	padding-left: 1em;
-    background-image: url("../imgs/semiTransparentWhite.png");
+    background-image: url("imgs/semiTransparentWhite.png");
 }
 
 
@@ -169,7 +169,7 @@ span.clicktarget{ /*covers parent "relative" div with a target for a link.*/
 
   /* edit: fixes overlap error in IE7/8, 
      make sure you have an empty gif */
-  background-image: url('../imgs/empty.gif');
+  background-image: url('imgs/empty.gif');
 }
 
 a.front { /*bring normal links in front of clicktargets*/
@@ -210,32 +210,32 @@ li{
 	text-align: center;
 }
 .tags span.highlight{
-	background-image: url("../imgs/semiTransparentBlueGreen.png");
+	background-image: url("imgs/semiTransparentBlueGreen.png");
 }
 .tags span, .tagmenuitem{
 	padding: .25em .75em;
 }
 .tagmenuitem{
-	background-image: url("../imgs/semiTransparentWhite.png");
+	background-image: url("imgs/semiTransparentWhite.png");
 	font-family: Tw Cen MT, Trebuchet MS, sans serif;
 	color: gray;
 	cursor: pointer;
 	float: left;
 }
 .tagmenuitem.enabled{
-	background-image: url("../imgs/semiTransparentGreen.png");
+	background-image: url("imgs/semiTransparentGreen.png");
 	color: black;
 }
 .tagmenuitem.locked{
-	/*background-image: url("../imgs/semiTransparentBlueGreen.png");*/
+	/*background-image: url("imgs/semiTransparentBlueGreen.png");*/
 	background-color: #9af26e;
 }
 .tagmenuitem:hover{
-	background-image: url("../imgs/semiTransparentBlueGreen.png");
+	background-image: url("imgs/semiTransparentBlueGreen.png");
 	background-color: #9af26e
 }
 .tagmenuitem.special{
-	background-image: url("../imgs/semiTransparentBlueGreen.png");
+	background-image: url("imgs/semiTransparentBlueGreen.png");
 }
 
 /*~~~~~ portfolio section ~~~~~~*/
@@ -255,8 +255,8 @@ li{
 	padding: 1em;
 	padding-bottom: 2em;
 	border: 1px solid gray;
-	/*background-image: url("../imgs/semiTransparentGreen.png");*/
-	background-image: url("../imgs/semiTransparentWhite.png");
+	/*background-image: url("imgs/semiTransparentGreen.png");*/
+	background-image: url("imgs/semiTransparentWhite.png");
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
@@ -264,10 +264,10 @@ li{
 }
 
 .portfolio .itembox:hover{
-	background-image: url("../imgs/semiTransparentBlueGreen.png");
+	background-image: url("imgs/semiTransparentBlueGreen.png");
 }
 .portfolio .itembox.highlight {
-	background-image: url("../imgs/semiTransparentGreen.png");
+	background-image: url("imgs/semiTransparentGreen.png");
 	background-color: #9af26e;
 }
 

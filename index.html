@@ -21,7 +21,7 @@ nunjucks.configure('/templates', { autoescape: true });
 
 $(document).ready(function(){
     // Get the projects data and load it on up
-    $.getJSON('/content/projects.json').success(function(result){
+    $.getJSON('content/projects.json').success(function(result){
         var projects_html = nunjucks.render('test.html', {projects: result});
         $('#project-list').prepend(projects_html);
         tags.init();
