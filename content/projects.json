@@ -1,0 +1,201 @@
+[
+    {
+        "name": "Hakai Kayaking",
+        "image": "hakai.jpg",
+        "location": "British Columbia",
+        "date": "June 2012",
+        "description": [
+            "Performed a wet-launch in the Hakai Wilderness Area in British Columbia and spent 11 days kayaking in the wilderness with three friends.",
+            "Exercised advanced kayaking and wilderness techniques.",
+            "Had the time of our lives."
+        ],
+        "tags": [
+            "Outdoorsman",
+            "Photographer"
+        ]
+    },
+    {
+        "name": "Robotic Sailboat",
+        "image": "sailbot.jpg",
+        "location": "Olin College",
+        "date": "2011-2012",
+        "description": [
+            "Helped form and manage undergraduate team to design & build a robotic sailboat in 1 academic year.",
+            "Competed in the World Robotic Sailing Competition in Vancouver, taking second place.",
+            "Managed 6-member coding team to create a successful and highly tunable codebase.",
+            "Robot capable of autonomously setting sails and rudder to accomplish missions, programmable on-the-fly through an offboard GUI.",
+            "<a href=http://olinsailbot.com target='_blank'><span class='clicktarget'></span>See Project Website</a>"
+        ],
+        "tags": [
+            "Robotician",
+            "Outdoorsman",
+            "Photographer",
+            "Project Manager",
+            "Codemonkey"
+        ]
+    },
+    {
+        "name": "Magnetic knife rack",
+        "image": "knives.jpg",
+        "location": "Seattle",
+        "date": "December 2012",
+        "description": [
+            "Built a magnetic knife rack for home use.",
+            "Routing, woodworking and craftsmanship",
+            "Used sander, router and other hand tools."
+        ],
+        "tags": [
+            "Treehugger",
+            "Photographer"
+        ]
+    },
+    {
+        "name": "Parkour",
+        "image": "parkour_wall_run.jpg",
+        "location": "Olin College",
+        "date": "2011-2012",
+        "description": [
+            "Founded a parkour group at Olin College.",
+            "Exploring fluid movement across obstacles in an urban environment",
+            "Dive rolls",
+            "~8ft. horizontal wall runs (pictured)", 
+            "~10ft. vertical wall climbs",
+            "Recorded <a href='http://www.youtube.com/watch?v=qtsNTd63Sfo'><span class='clicktarget'></span>video</a>",
+            "The world is a playground!"
+        ],
+        "tags": [
+            "Outdoorsman"
+        ]
+    },
+    {
+        "name": "FPGA Multiphonic Synthesizer",
+        "image": "FPGASynth.jpg",
+        "location": "Computer Architecture",
+        "date": "Jan-May 2011",
+        "description": [
+            "Co-created a polyphonic music synthesizer using an FPGA development board.",
+            "Wrote a multi-level modular architecture in Verilog",
+            "Live interface with switches and de-bounced buttons",
+            "Up to four simultaneous tones, each separately modulated in the key of C and programmable for an 8-beat measure"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Project Manager"
+        ]
+    },
+    {
+        "name": "Ultrasonic Anemometer",
+        "image": "anemometer.jpg",
+        "location": "Sensors",
+        "date": "Spring 2010",
+        "description": [
+            "Low-cost wind speed measurement without moving parts",
+            "Commercial version costs ~$1300, ours cost $130",
+            "Analog and digital signal processing",
+            "Wind-tunnel tested for verification & calibration"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Project Manager",
+            "Robotician"
+        ]
+    },
+    {
+        "name": "Antonymizer",
+        "image": "Antonymizer.jpg",
+        "location": "personal project",
+        "date": "Mar 2011",
+        "description": [
+            "Wrote a Python web application to change the meaning of input text",
+            "Used natural language processing and web APIs to replace certain words with appropriate antonyms"
+        ],
+        "tags": [
+            "Codemonkey"
+        ]
+    },
+    {
+        "name": "Off In Singapore Blog",
+        "image": "OffInSingapore.jpg",
+        "location": "personal project",
+        "date": "Feb-May 2011",
+        "description": [
+            "Managed a blog with two friends during study away adventures in Singapore",
+            "Photographer",
+            "Web Styling and Upkeep",
+            "Adventures in Foreign Lands",
+            "<a href=http://olinsingapore.blogspot.com/2011/04/henderson-wave-bridge.html target='_blank'><span class='clicktarget'></span>See Project Website</a>"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Traveler",
+            "Photographer"
+        ]
+    },
+    {
+        "name": "Travelling Salesman Solver",
+        "image": "salesman.png",
+        "location": "Nanyang Technological University",
+        "date": "May 2011",
+        "description": [
+            "Tasked with finding the solution to a Travelling Salesman problem as a final class project.",
+            "Instead of writing just one algorithm, wrote three: a genetic algorithm, a complete search, and a greedy algorithm.",
+            "<a href='files/TravellingSalesman.zip'><span class='clicktarget'></span>Download Code Example</a> (requires a Python interpreter)"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Traveler"
+        ]
+    },
+    {
+        "name": "Sustainable Smartroom",
+        "image": "smartfan.jpg",
+        "location": "Olin College",
+        "date": "Fall 2009",
+        "description": [
+            "Designed and built a room automation retrofit.",
+            "Included wirelessly-networked, automatically controlled \"smart\" fan and lights with the aim of reducing power consumption.",
+            "Exercised network design, PIC &amp; Xbee programming in C and circuit design.",
+            "<a href='http://ja3bo.com' target='_blank'><span class='clicktarget'></span>Visit Project Website</a>"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Robotician",
+            "Treehugger",
+            "Photographer",
+            "Project Manager"
+        ]
+    },
+    {
+        "name": "Interactive Walking Route Optimizer",
+        "image": "beeline.png",
+        "location": "Olin College",
+        "date": "Fall 2009",
+        "description": [
+            "Wrote a program that provides optimal walking routes from place to place at Olin College.",
+            "Uses an underlying graph model of Olin and provides textual and visual representations of routes.",
+            "Dynamically recalculates routes to meet the user's preference of whether the path should be indoors or outdoors."
+        ],
+        "tags": [
+            "Codemonkey",
+            "Outdoorsman",
+            "Project Manager"
+        ]
+    },
+    {
+        "name": "Magnetic Levitation Modelling",
+        "link": "files/maglev.pdf",
+        "image": "maglev.jpg",
+        "location": "Olin College",
+        "date": "Spring 2009",
+        "description": [
+            "Designed a science-museum type digital exhibit to explain the basics of magnetic levitation and its applications in high-speed transport and efficient systems.",
+            "Created an interactive MATLAB simulation of a linear induction motor.",
+            "<a href='files/linearmotor demo.zip' class='front'>Download Linear Motor Code</a> (requires MATLAB)",
+            "<a href='files/Maglev Poster.pdf' target='_new'><span class='clicktarget'></span>View Poster</a>"
+        ],
+        "tags": [
+            "Codemonkey",
+            "Treehugger"
+        ]
+    }
+]

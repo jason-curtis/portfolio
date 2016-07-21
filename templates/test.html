@@ -1,0 +1,26 @@
+{% for project in projects %}
+    <div class="itembox">
+    <div class="item">
+        <div class="imagebox">
+            <a href="{% if project.link %}{{ project.link }}{% else %}imgs/{{ project.image }}{% endif %}">
+                <span class="clicktarget"></span><img src="imgs/{{ project.image }}">
+            </a>
+        </div>
+        <div class="description">
+            <div class="title">
+                {{ project.name }}
+                <div class="location">{{ project.location }}</div> 
+                <div class="date">{{ project.date }}</div>
+            </div>
+            {% for description_line in project.description %}
+                <p>{{ description_line | safe }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="tags">
+        {% for tag in project.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+    </div>
+    </div><!-- end itembox -->
+{% endfor %}

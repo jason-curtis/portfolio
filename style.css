@@ -1,0 +1,305 @@
+body{
+  background-image: url("../imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-color: #EEE;
+  background-attachment: fixed;
+  height: 100%;
+}
+div#main{
+  margin: .5in auto;
+}
+#content{
+  overflow-x:hidden;
+}
+
+#content .year{
+	border: 1px solid #0F0;
+}
+#content .year h2{
+	color: #444;
+	border-bottom:1px solid #444;
+}
+#content .year h3{
+	color: purple;	
+}
+
+#content img{
+	border: 1pt solid black;
+	display: table-cell;
+}
+
+
+/*~~~~from resume~~~~~~~~~```*/
+body{
+	/*font-family: Book Antiqua, serif; I think it outgrew this :/ */
+	margin: 0px;
+	font-family: Tw Cen MT, Trebuchet MS, sans serif;
+	/*font-size: 10px;*/
+}
+.page{
+	page-break-after: always;
+	page-break-inside: avoid;
+}
+
+/*'header' info sidebar*/
+#header{
+	/*this includes name, objective and contact info*/
+	display: block;
+	width: 100%;
+	height: 100px;
+	display: table;
+}
+
+#name{
+	width: 25%;
+	display: table-cell;
+	vertical-align: middle;
+	/*line-height: 100px;*/
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+	font-size: 20px;
+	font-family: Tw Cen MT, Trebuchet MS, sans serif;
+	font-weight: bold;
+	padding-right: 1em;
+    background-image: url("../imgs/semiTransparentWhite.png");
+}
+
+.overviewstmt .title{
+	margin: 0.2em;
+	font-style: normal;
+}
+.overviewstmt{
+	width: 50%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size:16px;
+	font-family: Tw Cen MT, Trebuchet MS, sans serif;
+	font-style: italic;
+	border-left: 1px dashed #ddd;
+	padding-left: 1em;
+    background-image: url("../imgs/semiTransparentWhite.png");
+}
+
+
+#header .contact{
+	width: 25%;
+	display: table-cell;
+	vertical-align: middle;
+	border-left: 1px solid black;
+	padding-left: 1em;
+	width: 150px;
+	text-align:left;
+	margin-right: 1em;
+}
+
+
+.section .title{
+	margin-top: 1em;
+	font-family: Tw Cen MT, Trebuchet MS, sans serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+}
+.section .title:first-letter {
+	font-size: 1.2em; 
+}
+.section .title{
+	border-bottom:1px solid black;
+}
+
+.position, .location{
+	display: inline;
+}
+
+.location{
+	font-weight: normal;
+}
+/*
+.position{
+	font-weight: bold;
+}
+*/
+
+.position:before, .location:before{/*bullets are lines instead of circles*/
+	content: "  -  ";
+	}
+
+.title .date{
+	float: right;
+	font-size: 10px;
+	position: absolute;
+	right: 0px;
+	bottom: 1px;
+}
+
+.item .title{
+	border:none;
+}
+.item .title:first-letter {
+	font-size: 1em; /*override from section title*/
+}
+
+.item .title{
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: Book Antiqua, serif;
+	text-transform: none;
+	/*font-weight: normal;*/
+	/*font-style: italic;*/
+}
+
+.emphasis{
+	font-weight: bold;
+}
+
+span.clicktarget{ /*covers parent "relative" div with a target for a link.*/
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 1;
+
+  /* edit: fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  background-image: url('../imgs/empty.gif');
+}
+
+a.front { /*bring normal links in front of clicktargets*/
+	position: relative;
+	z-index: 2;
+}
+
+ul{
+	list-style-type: none;
+}
+ul li:before {/*bullets are lines instead of circles*/
+	content: "\2014  ";
+	content: "\2014  ";
+	width:30px;
+	}
+
+li{
+	min-width: 100px;
+	margin-left: 1em;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+/*~~~~~~~~ tag menu ~~~~~~~~~*/
+#tagchooser-container{
+	position:relative;
+	width: 100%;
+	text-align: center;
+}
+#tagchooser{
+	visibility: hidden; /* initally; shown by js */
+	display: inline-block;
+}
+.tags{
+	/*font-style:italic;*/
+	font-size:0.8em;
+	width: 100%;
+	text-align: center;
+}
+.tags span.highlight{
+	background-image: url("../imgs/semiTransparentBlueGreen.png");
+}
+.tags span, .tagmenuitem{
+	padding: .25em .75em;
+}
+.tagmenuitem{
+	background-image: url("../imgs/semiTransparentWhite.png");
+	font-family: Tw Cen MT, Trebuchet MS, sans serif;
+	color: gray;
+	cursor: pointer;
+	float: left;
+}
+.tagmenuitem.enabled{
+	background-image: url("../imgs/semiTransparentGreen.png");
+	color: black;
+}
+.tagmenuitem.locked{
+	/*background-image: url("../imgs/semiTransparentBlueGreen.png");*/
+	background-color: #9af26e;
+}
+.tagmenuitem:hover{
+	background-image: url("../imgs/semiTransparentBlueGreen.png");
+	background-color: #9af26e
+}
+.tagmenuitem.special{
+	background-image: url("../imgs/semiTransparentBlueGreen.png");
+}
+
+/*~~~~~ portfolio section ~~~~~~*/
+.tags{
+	position:absolute;
+	bottom: 0px;
+}
+
+.portfolio{
+	text-align:center
+}
+
+.portfolio .itembox{
+	width: 600px;
+	overflow: hidden;
+	margin: 1em;
+	padding: 1em;
+	padding-bottom: 2em;
+	border: 1px solid gray;
+	/*background-image: url("../imgs/semiTransparentGreen.png");*/
+	background-image: url("../imgs/semiTransparentWhite.png");
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.portfolio .itembox:hover{
+	background-image: url("../imgs/semiTransparentBlueGreen.png");
+}
+.portfolio .itembox.highlight {
+	background-image: url("../imgs/semiTransparentGreen.png");
+	background-color: #9af26e;
+}
+
+/* This combination vertically centers the contents of the .item */
+.item{
+	display: table;
+}
+.item .imagebox{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.item p{
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	text-indent: -2em;
+	margin-left: 2em;
+}
+.portfolio img{
+	float:left;
+	width: 2.5in;
+}
+.portfolio .description{
+	padding-left: 1em;
+	overflow:hidden;
+}
+.portfolio .description .title{
+	font-weight: bold;
+	position: relative;
+}
+.portfolio .description .title .location{
+	font-weight: normal;
+}
+.portfolio .description p:before{
+	content: "  -  ";
+}

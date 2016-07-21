@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0024)http://jasonrcurtis.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="description" content="Portfolio"> 
+<meta name="keywords" content="adventures projects jason curtis"> 
+<meta name="author" content="Jason Curtis"> 
+
+<title>Jason Russell Curtis</title>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="SHORTCUT ICON" href="http://jasonrcurtis.com/favicon.ico">
+
+<script type="text/javascript" async="" src="./js/vendor/ga.js"></script><script type="text/javascript" src="./js/vendor/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./js/vendor/require.js"></script>
+<script type="text/javascript" src="./js/vendor/nunjucks-dev.js"></script>
+<script type="text/javascript" src="./js/tags.js"></script>
+
+<script type="text/javascript">
+nunjucks.configure('/templates', { autoescape: true });
+
+$(document).ready(function(){
+    // Get the projects data and load it on up
+    $.getJSON('/content/projects.json').success(function(result){
+        var projects_html = nunjucks.render('test.html', {projects: result});
+        $('#project-list').prepend(projects_html);
+        tags.init();
+    });
+});
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33942178-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div id="main">
+    <div id="header">
+        <div id="name">Jason R. Curtis</div>
+        <div class="overviewstmt">
+        <!--<div class="title">Summary:</div>-->
+        Always looking to combine my love for engineering, nature, and learning.
+        <!--<div class="title">Objective:</div>
+        To work, in software and robotics,
+        toward a better world.-->
+        </div>
+
+    </div>
+    <div id="content" class="portfolio">
+    <div id="tagchooser-container">
+        <div id="tagchooser" style="visibility: visible;">
+            <!--<div class="tagmenuitem special enabled showall">(Show All)</div>-->
+            <span id="autotags"></span>
+        </div>
+    </div>
+    <div id="project-list"></div>
+</div>
+
+
+
+
+</body><div></div></html>
